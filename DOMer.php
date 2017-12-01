@@ -57,7 +57,7 @@
 		'beautify' => true
 	),true);
 **/
-if(!class_exists('DOM')):
+if(!class_exists('DOMer')):
 class DOMer
 {
 	public $doctype = '';
