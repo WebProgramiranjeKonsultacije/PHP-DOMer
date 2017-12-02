@@ -8,6 +8,7 @@
 *
 * @author    Ivijan-Stefan Stipic <creativform@gmail.com>
 * @version   1.0.0
+* @license   Licensed under MIT License
 *
 * @pharam $version      string   -HTML version like: html5, html1, html 4.01, etc. (default html5)
 * @pharam $charset      string   -Charset like: UTF-8 (optional)
