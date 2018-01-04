@@ -15,7 +15,7 @@
 * @pharam $lang         string   -Language like: en, de, rs, nl... (optional but important)
 *
 * EXAMPLE
----------------------------
+____________________________________
 	// Initialize DOM
 	$dom = new DOMer('html5');
 	
@@ -88,7 +88,7 @@ class DOMer
 	* @return           string         -Formatted HTML tag
 	*
 	* EXAMPLE
-	---------------------------
+	____________________________________
 		DOM->tag('div',array(
 			'class' => 'col-sm-6 col-md-4',
 			'id'	=> 'column_1'
@@ -125,7 +125,7 @@ class DOMer
 	* @return         string  -Formated attributes
 	*
 	* EXAMPLE
-	---------------------------
+	____________________________________
 		DOM->attr(array(
 			'class' => 'col-sm-6 col-md-4',
 			'id'	=> 'column_1'
@@ -172,7 +172,7 @@ class DOMer
 	* @return         string  -Formated class attribute
 	*
 	* EXAMPLE
-	---------------------------
+	____________________________________
 		DOM->attr_class(array(
 			'col-sm-12',
 			'col-md-6',
@@ -211,7 +211,7 @@ class DOMer
 	* @return         string  -Formated class attribute
 	*
 	* EXAMPLE
-	---------------------------
+	____________________________________
 		DOM->js(array(
 			'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
 			'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js',
@@ -234,7 +234,7 @@ class DOMer
 	* @pharam $css    array/string   -Array of scripts or only one CSS file or URL.
 	*
 	* EXAMPLE
-	---------------------------
+	____________________________________
 		DOM->css(array(
 			'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css',
 		));
@@ -257,7 +257,7 @@ class DOMer
 	* @pharam $echo   bool           -If is true, returns DOM via echo
 	*
 	* EXAMPLE
-	---------------------------
+	____________________________________
 		DOM->html('Content inside body tag. It accept also array.',array(
 			'compress' => true,
 			'body_attr' => array(
